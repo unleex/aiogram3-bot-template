@@ -1,11 +1,15 @@
 # aiogram3-bot-template
 This is a template for creating telegram bots based on aiogram3, containing some basic folders and code that can be extended.
 # Instructions
-## 1. Clone this repo 
+## 1. Create  repo 
 ```bash
 git clone https://github.com/unleex/aiogram3-bot-template
 ```
-and open that directory
+* go to directory you've just created by cloning
+* create your own repository on Github, copy its url and then run the following
+```bash
+git remote set-url https://github.com/unleex/aiogram3-bot-template; git add .; git push -f
+```
 ## 2. Install all libraries
 ### Install redis 
 Linux: 
